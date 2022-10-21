@@ -22,3 +22,7 @@ numeros = [1, 30, 21, 2, 9, 65, 34]
 quadrado = []
 for numero in numeros:
     quadrado.append(numero ** 2)
+
+#modificando valores versão 2:
+numeros = [1, 30, 21, 2, 9, 65, 34]
+quadrado = [numero ** 2 for numero in numeros]#sem if pois todos os valores da primeira lista serão modificados e mandados para a nova lista

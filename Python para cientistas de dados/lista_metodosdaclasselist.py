@@ -17,3 +17,22 @@ print(id(lista3), id(listaalterada))
 #.extend():
 lista3.extend([6, 7, 8])
 print(lista3)
+
+#.pop():
+#"retira o último prato da pilha de pratos" da lista (analogia professor)
+#perceba: o append adiciona um elemento no fim da lista e o pop tira o último elemento da lista
+linguagens = ['Python', 'JS', 'C', 'Java', 'C#']
+linguagens.pop() #c#
+linguagens.pop() #java
+linguagens.pop() #c
+linguagens.pop(0) #python
+
+#.remove():
+#Útil para remover um elemento que você já sabe, mas ele só remove a primeira ocorrência! Cuidado com isso!
+
+#.reverse():
+#inverte os elementos da lista
+
+
+
+
